@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: .5rem 1.5rem;
+    margin: .5rem 1rem;
+    box-shadow: 2px 4px 12px -6px black;
+    background-color: teal;
+    color: aliceblue;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.navbar ul li:hover{
+    box-shadow:none
+}
+
+.counter,.currency{
+    position: relative;
+    max-width: 400px;
+    margin: 2rem auto;
+    height: 300px;
+    box-shadow: 2px 4px 12px -6px black;
+    position: relative;
+    text-align: center;
+    border : 1px solid lightgray;
+    text-align:center;
+}
+.currency input{
+    padding:.4rem ;
+    width:70%;
+    
+}
+table{
+    width:100%;
+    margin: 2rem 0;
+}
+tbody tr{
+    font-size: 1.4rem;
+    border:1px solid gray ;
+}
+tbody tr th{
+    border:1px solid gray ;
+}
+tbody tr td{
+    border:1px solid gray ;
+}
+
+.btn-container{
+    position: absolute;
+    bottom:1rem;
+    left:50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    padding: .4rem 2rem;
+    background-color: cornflowerblue;
+    box-shadow: 2px 4px 12px -6px black;
+    border: 0;
+    cursor: pointer;
+    color:white;
+    margin: 0.5rem 1rem;
+}
+
+    
+
+.red{
+    background-color: rgb(230, 87, 87);
+}
+.blue{
+    background-color: rgb(65, 134, 173);
+}
+.green{
+    background-color: rgb(101, 218, 101);
+}
+
+.currency input{
+    margin: .5rem 1rem;
+}
